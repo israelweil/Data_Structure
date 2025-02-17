@@ -1,9 +1,14 @@
 #include <iostream>
+
+#include "cmake-build-debug/Factorial.h"
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
+    Factorial factorial;
+    factorial.factorial(5);
+    factorial.mostrarResultado(5);
 
-    return 0;
+
 }
 
 // TIP See CLion help at <a
