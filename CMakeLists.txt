@@ -3,4 +3,7 @@ project(Unidad_2)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Unidad_2 main.cpp)
+add_executable(Unidad_2 main.cpp
+        cmake-build-debug/Division.cpp
+        cmake-build-debug/Division.h
+)
