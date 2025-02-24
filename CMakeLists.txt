@@ -3,4 +3,8 @@ project(Unidad_2)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Unidad_2 main.cpp)
+add_executable(Unidad_2 main.cpp
+        recursividad_indirecta/Factorial.cpp
+        recursividad_indirecta/Factorial.h
+        recursividad_indirecta/Ulam.cpp
+        recursividad_indirecta/Ulam.h)
