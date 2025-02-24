@@ -1,7 +1,16 @@
 #include <iostream>
+
+#include "cmake-build-debug/Palindroma.h"
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
+    Palindroma palindroma;
+    string palabra;
+    int longitud;
+    cout << "Ingrese la palabra: "<< endl;
+    cin >> palabra;
+    longitud = palabra.length();
+    palindroma.resultado(palindroma.palabra(palabra, longitud));
 
     return 0;
 }
