@@ -1,3 +1,21 @@
 # ninja log v6
 16	2044	7614607889509798	CMakeFiles/Unidad_2.dir/main.cpp.obj	a790217694379341
 2057	2458	7614607909932958	Unidad_2.exe	545bce3a2f64ea31
+57	4104	7621623776619585	CMakeFiles/Unidad_2.dir/main.cpp.obj	a790217694379341
+82	4142	7621623776867878	CMakeFiles/Unidad_2.dir/Anagrama.cpp.obj	42face4d83d78e4c
+4143	5054	7621623817478266	Unidad_2.exe	4b81e2e1a7ad0cee
+12	2583	7621626587578819	CMakeFiles/Unidad_2.dir/Anagrama.cpp.obj	42face4d83d78e4c
+2585	2941	7621626613310942	Unidad_2.exe	4b81e2e1a7ad0cee
+13	1800	7621634707153336	CMakeFiles/Unidad_2.dir/Anagrama.cpp.obj	42face4d83d78e4c
+1802	2057	7621634725038731	Unidad_2.exe	4b81e2e1a7ad0cee
+46	2907	7621640322460244	CMakeFiles/Unidad_2.dir/Anagrama.cpp.obj	42face4d83d78e4c
+17	2921	7621640322072846	CMakeFiles/Unidad_2.dir/main.cpp.obj	a790217694379341
+2921	3455	7621640351110877	Unidad_2.exe	4b81e2e1a7ad0cee
+37	1808	7621645812700006	CMakeFiles/Unidad_2.dir/Anagrama.cpp.obj	42face4d83d78e4c
+1811	2067	7621645830430046	Unidad_2.exe	4b81e2e1a7ad0cee
+31	1770	7621653254075729	CMakeFiles/Unidad_2.dir/Anagrama.cpp.obj	42face4d83d78e4c
+1772	2038	7621653271480348	Unidad_2.exe	4b81e2e1a7ad0cee
+32	1773	7621663705750623	CMakeFiles/Unidad_2.dir/Anagrama.cpp.obj	42face4d83d78e4c
+1775	2038	7621663723188174	Unidad_2.exe	4b81e2e1a7ad0cee
+15	2593	7621679921233921	CMakeFiles/Unidad_2.dir/Anagrama.cpp.obj	42face4d83d78e4c
+2595	2910	7621679947030932	Unidad_2.exe	4b81e2e1a7ad0cee

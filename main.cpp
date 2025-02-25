@@ -1,9 +1,18 @@
 #include <iostream>
-// TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+
+#include "Anagrama.h"
 int main() {
-
-
+    Anagrama anagrama;
+    cout << "Introduce la primera palabra: "<<endl;
+    string p1;
+    cin >> p1;
+    int l1 = p1.length();
+    cout << "Introduce la segunda palabra: "<< endl;
+    string p2;
+    cin >> p2;
+    int l2 = p2.length();
+    int caso = anagrama.palabra(p1,l1,p2,l2);
+    anagrama.imprimir(caso);
     return 0;
 }
 
