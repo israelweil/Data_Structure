@@ -55,12 +55,6 @@ build CMakeFiles/Unidad_2.dir/main.cpp.obj: CXX_COMPILER__Unidad_2_unscanned_Deb
   OBJECT_DIR = CMakeFiles\Unidad_2.dir
   OBJECT_FILE_DIR = CMakeFiles\Unidad_2.dir
 
-build CMakeFiles/Unidad_2.dir/Voltear_Cadena.cpp.obj: CXX_COMPILER__Unidad_2_unscanned_Debug C$:/Users/cland/CLionProjects/Unidad_2/cmake-build-debug/Voltear_Cadena.cpp || cmake_object_order_depends_target_Unidad_2
-  DEP_FILE = CMakeFiles\Unidad_2.dir\Voltear_Cadena.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Unidad_2.dir
-  OBJECT_FILE_DIR = CMakeFiles\Unidad_2.dir
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Unidad_2
@@ -69,7 +63,7 @@ build CMakeFiles/Unidad_2.dir/Voltear_Cadena.cpp.obj: CXX_COMPILER__Unidad_2_uns
 #############################################
 # Link the executable Unidad_2.exe
 
-build Unidad_2.exe: CXX_EXECUTABLE_LINKER__Unidad_2_Debug CMakeFiles/Unidad_2.dir/main.cpp.obj CMakeFiles/Unidad_2.dir/Voltear_Cadena.cpp.obj
+build Unidad_2.exe: CXX_EXECUTABLE_LINKER__Unidad_2_Debug CMakeFiles/Unidad_2.dir/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Unidad_2.dir

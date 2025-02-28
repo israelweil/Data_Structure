@@ -1,16 +1,16 @@
 #include <iostream>
 
-#include "cmake-build-debug/Voltear_Cadena.h"
+#include "Voltear_Cadena.h"
 using namespace std;
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
     Voltear_Cadena voltear;
-    std::string palabra;
-
+    string palabra;
     cout<<"Ingrese una palabra: ";
     cin >> palabra;
-    voltear.voltear(palabra,palabra.length());
+    int i = palabra.length();
+    voltear.voltear(palabra,i);
     return 0;
 }
 
