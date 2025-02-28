@@ -1,13 +1,4 @@
 # ninja log v6
-16	1626	7621431309264506	CMakeFiles/Unidad_2.dir/main.cpp.obj	a790217694379341
-1627	1856	7621431325378731	Unidad_2.exe	605398f76e178b5e
-114	543	7621430535877355	CMakeFiles/Unidad_2.dir/recursividad_indirecta/Factorial.cpp.obj	bd8b3885bf879926
-29	3125	7621441785936237	CMakeFiles/Unidad_2.dir/main.cpp.obj	a790217694379341
-38	3133	7621441786022242	CMakeFiles/Unidad_2.dir/recursividad_indirecta/Ulam.cpp.obj	23c7f389189cb1fb
-3133	3554	7621441816972363	Unidad_2.exe	c851594ddb86cf0a
-31	1712	7621442124657168	CMakeFiles/Unidad_2.dir/recursividad_indirecta/Ulam.cpp.obj	23c7f389189cb1fb
-1713	1916	7621442141474093	Unidad_2.exe	c851594ddb86cf0a
-38	1635	7621442515398492	CMakeFiles/Unidad_2.dir/recursividad_indirecta/Ulam.cpp.obj	23c7f389189cb1fb
-1636	1843	7621442531373099	Unidad_2.exe	c851594ddb86cf0a
-30	1586	7621442792472049	CMakeFiles/Unidad_2.dir/recursividad_indirecta/Ulam.cpp.obj	23c7f389189cb1fb
-1587	1783	7621442808046782	Unidad_2.exe	c851594ddb86cf0a
+13	1915	7623162592168281	CMakeFiles/Unidad_2.dir/main.cpp.obj	a790217694379341
+1918	2227	7623162611214627	Unidad_2.exe	545bce3a2f64ea31
+5	698	7623166119492622	build.ninja	431e91d995d2d26d
