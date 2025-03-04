@@ -1,8 +1,14 @@
 #include <iostream>
+
+#include "src/arrays/Arreglo.h"
+#include "src/voltear_cadena/Voltear.h"
+using namespace std;
+
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-
+    Arreglo arreglo;
+    arreglo.clase();
     return 0;
 }
 
