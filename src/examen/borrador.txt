@@ -1,0 +1,27 @@
+// opcion 1
+
+void encontrarDivisores(int num, vector<int>& divisores) {
+    for (int i = 1; i <= num; ++i) {
+        if (num % i == 0) {
+            divisores.push_back(i);
+        }
+    }
+}
+
+int encontrarMCD(int a, int b) {
+    if (b == 0)
+        return a;
+    return encontrarMCD(b, a % b);
+}
+
+int main() {
+    int num1, num2;
+    cout << "Ingrese el primer numero: ";
+    cin >> num1;
+    cout << "Ingrese el segundo numero: ";
+    cin >> num2;
+
+   ComunDiv comun;
+    comun.sacarDivisores(num1, comun.divisoresA);
+    return 0;
+}

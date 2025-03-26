@@ -79,6 +79,60 @@ build CMakeFiles/Unidad_2.dir/src/arrays/Arreglo.cpp.obj: CXX_COMPILER__Unidad_2
   OBJECT_DIR = CMakeFiles\Unidad_2.dir
   OBJECT_FILE_DIR = CMakeFiles\Unidad_2.dir\src\arrays
 
+build CMakeFiles/Unidad_2.dir/src/pares/Pares.cpp.obj: CXX_COMPILER__Unidad_2_unscanned_Debug C$:/Users/cland/CLionProjects/Unidad_2/src/pares/Pares.cpp || cmake_object_order_depends_target_Unidad_2
+  DEP_FILE = CMakeFiles\Unidad_2.dir\src\pares\Pares.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Unidad_2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Unidad_2.dir\src\pares
+
+build CMakeFiles/Unidad_2.dir/src/arregloSuma/Suma.cpp.obj: CXX_COMPILER__Unidad_2_unscanned_Debug C$:/Users/cland/CLionProjects/Unidad_2/src/arregloSuma/Suma.cpp || cmake_object_order_depends_target_Unidad_2
+  DEP_FILE = CMakeFiles\Unidad_2.dir\src\arregloSuma\Suma.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Unidad_2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Unidad_2.dir\src\arregloSuma
+
+build CMakeFiles/Unidad_2.dir/src/examen/ComunDiv.cpp.obj: CXX_COMPILER__Unidad_2_unscanned_Debug C$:/Users/cland/CLionProjects/Unidad_2/src/examen/ComunDiv.cpp || cmake_object_order_depends_target_Unidad_2
+  DEP_FILE = CMakeFiles\Unidad_2.dir\src\examen\ComunDiv.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Unidad_2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Unidad_2.dir\src\examen
+
+build CMakeFiles/Unidad_2.dir/src/pilas/OnceMarzo.cpp.obj: CXX_COMPILER__Unidad_2_unscanned_Debug C$:/Users/cland/CLionProjects/Unidad_2/src/pilas/OnceMarzo.cpp || cmake_object_order_depends_target_Unidad_2
+  DEP_FILE = CMakeFiles\Unidad_2.dir\src\pilas\OnceMarzo.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Unidad_2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Unidad_2.dir\src\pilas
+
+build CMakeFiles/Unidad_2.dir/src/pilasDinamicas/Dinamicas.cpp.obj: CXX_COMPILER__Unidad_2_unscanned_Debug C$:/Users/cland/CLionProjects/Unidad_2/src/pilasDinamicas/Dinamicas.cpp || cmake_object_order_depends_target_Unidad_2
+  DEP_FILE = CMakeFiles\Unidad_2.dir\src\pilasDinamicas\Dinamicas.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Unidad_2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Unidad_2.dir\src\pilasDinamicas
+
+build CMakeFiles/Unidad_2.dir/src/colas/ColasEstaticas.cpp.obj: CXX_COMPILER__Unidad_2_unscanned_Debug C$:/Users/cland/CLionProjects/Unidad_2/src/colas/ColasEstaticas.cpp || cmake_object_order_depends_target_Unidad_2
+  DEP_FILE = CMakeFiles\Unidad_2.dir\src\colas\ColasEstaticas.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Unidad_2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Unidad_2.dir\src\colas
+
+build CMakeFiles/Unidad_2.dir/src/colasDinamicas/ColasSimples.cpp.obj: CXX_COMPILER__Unidad_2_unscanned_Debug C$:/Users/cland/CLionProjects/Unidad_2/src/colasDinamicas/ColasSimples.cpp || cmake_object_order_depends_target_Unidad_2
+  DEP_FILE = CMakeFiles\Unidad_2.dir\src\colasDinamicas\ColasSimples.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Unidad_2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Unidad_2.dir\src\colasDinamicas
+
+build CMakeFiles/Unidad_2.dir/src/tarea/Tarea3.cpp.obj: CXX_COMPILER__Unidad_2_unscanned_Debug C$:/Users/cland/CLionProjects/Unidad_2/src/tarea/Tarea3.cpp || cmake_object_order_depends_target_Unidad_2
+  DEP_FILE = CMakeFiles\Unidad_2.dir\src\tarea\Tarea3.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Unidad_2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Unidad_2.dir\src\tarea
+
+build CMakeFiles/Unidad_2.dir/src/bicolas/Bicolas.cpp.obj: CXX_COMPILER__Unidad_2_unscanned_Debug C$:/Users/cland/CLionProjects/Unidad_2/src/bicolas/Bicolas.cpp || cmake_object_order_depends_target_Unidad_2
+  DEP_FILE = CMakeFiles\Unidad_2.dir\src\bicolas\Bicolas.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Unidad_2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Unidad_2.dir\src\bicolas
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Unidad_2
@@ -87,7 +141,7 @@ build CMakeFiles/Unidad_2.dir/src/arrays/Arreglo.cpp.obj: CXX_COMPILER__Unidad_2
 #############################################
 # Link the executable Unidad_2.exe
 
-build Unidad_2.exe: CXX_EXECUTABLE_LINKER__Unidad_2_Debug CMakeFiles/Unidad_2.dir/main.cpp.obj CMakeFiles/Unidad_2.dir/src/Factorial/Factorial.cpp.obj CMakeFiles/Unidad_2.dir/src/voltear_cadena/Voltear.cpp.obj CMakeFiles/Unidad_2.dir/src/anagrama/Anagrama.cpp.obj CMakeFiles/Unidad_2.dir/src/arrays/Arreglo.cpp.obj
+build Unidad_2.exe: CXX_EXECUTABLE_LINKER__Unidad_2_Debug CMakeFiles/Unidad_2.dir/main.cpp.obj CMakeFiles/Unidad_2.dir/src/Factorial/Factorial.cpp.obj CMakeFiles/Unidad_2.dir/src/voltear_cadena/Voltear.cpp.obj CMakeFiles/Unidad_2.dir/src/anagrama/Anagrama.cpp.obj CMakeFiles/Unidad_2.dir/src/arrays/Arreglo.cpp.obj CMakeFiles/Unidad_2.dir/src/pares/Pares.cpp.obj CMakeFiles/Unidad_2.dir/src/arregloSuma/Suma.cpp.obj CMakeFiles/Unidad_2.dir/src/examen/ComunDiv.cpp.obj CMakeFiles/Unidad_2.dir/src/pilas/OnceMarzo.cpp.obj CMakeFiles/Unidad_2.dir/src/pilasDinamicas/Dinamicas.cpp.obj CMakeFiles/Unidad_2.dir/src/colas/ColasEstaticas.cpp.obj CMakeFiles/Unidad_2.dir/src/colasDinamicas/ColasSimples.cpp.obj CMakeFiles/Unidad_2.dir/src/tarea/Tarea3.cpp.obj CMakeFiles/Unidad_2.dir/src/bicolas/Bicolas.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Unidad_2.dir

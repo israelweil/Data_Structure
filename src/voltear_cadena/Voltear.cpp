@@ -13,5 +13,5 @@ string Voltear::cadena(string palabra, int longitud) {
 
 void Voltear::imprimir(string palabra,string nueva) {
     cout << "Palabra original: "<< palabra <<
-        " palabra al reves: " << nueva<< endl;
+        " palabra al reves: "<< nueva<< endl;
 }
