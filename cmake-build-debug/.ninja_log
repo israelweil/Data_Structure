@@ -1,3 +1,15 @@
 # ninja log v6
 16	2044	7614607889509798	CMakeFiles/Unidad_2.dir/main.cpp.obj	a790217694379341
 2057	2458	7614607909932958	Unidad_2.exe	545bce3a2f64ea31
+45	4970	7652546326300059	CMakeFiles/Unidad_2.dir/main.cpp.obj	a790217694379341
+80	4989	7652546326640007	CMakeFiles/Unidad_2.dir/src/Enlazadas.cpp.obj	4096a6afc09feabe
+4989	5959	7652546375726306	Unidad_2.exe	d5d8ef2042d63c0a
+14	1691	7652547121766122	CMakeFiles/Unidad_2.dir/main.cpp.obj	a790217694379341
+22	1738	7652547121847468	CMakeFiles/Unidad_2.dir/src/Enlazadas.cpp.obj	4096a6afc09feabe
+1738	1946	7652547138999119	Unidad_2.exe	d5d8ef2042d63c0a
+24	1799	7652547998231211	CMakeFiles/Unidad_2.dir/src/Enlazadas.cpp.obj	4096a6afc09feabe
+1801	2157	7652548016009958	Unidad_2.exe	d5d8ef2042d63c0a
+11	1343	7652548479872615	CMakeFiles/Unidad_2.dir/src/Enlazadas.cpp.obj	4096a6afc09feabe
+1344	1536	7652548493202558	Unidad_2.exe	d5d8ef2042d63c0a
+15	1869	7652548802504693	CMakeFiles/Unidad_2.dir/src/Enlazadas.cpp.obj	4096a6afc09feabe
+1872	2216	7652548821067682	Unidad_2.exe	d5d8ef2042d63c0a

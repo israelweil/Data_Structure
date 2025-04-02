@@ -1,8 +1,11 @@
 #include <iostream>
+
+#include "src/Enlazadas.h"
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-
+    Enlazadas listas_enlazadas;
+    listas_enlazadas.ejecutar();
     return 0;
 }
 
