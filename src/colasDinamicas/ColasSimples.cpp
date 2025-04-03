@@ -55,7 +55,7 @@ void ColasSimples::show() {
     }
 }
 void ColasSimples :: destroy() {
-    while (empty()) {
+    while (!empty()) {
         dequeue();
     }
 }

@@ -1,13 +1,11 @@
 # ninja log v6
-17	1610	7644957466624703	CMakeFiles/Unidad_2.dir/main.cpp.obj	a790217694379341
-1612	1919	7644957482566719	Unidad_2.exe	523d2f98f060c92
+40	3989	7646481145319397	CMakeFiles/Unidad_2.dir/main.cpp.obj	a790217694379341
+3690	4621	7646481421801037	Unidad_2.exe	fca78d01b6559faa
 46	3170	7624243252737265	CMakeFiles/Unidad_2.dir/src/Factorial/Factorial.cpp.obj	84b60246f5cf3851
-15	1609	7624304631249195	CMakeFiles/Unidad_2.dir/src/anagrama.cpp.obj	24285b5a8e375b4d
 58	2805	7629955883693229	CMakeFiles/Unidad_2.dir/src/pares/Pares.cpp.obj	5556d0463df0e22a
-20	1841	7624228002736234	CMakeFiles/Unidad_2.dir/src/Factorial.cpp.obj	1cd877fd3f7de9c8
 46	2940	7629955883571405	CMakeFiles/Unidad_2.dir/src/voltear_cadena/Voltear.cpp.obj	902f5a30534dc45a
-61	1948	7628347615110419	CMakeFiles/Unidad_2.dir/src/arrays/Arreglo.cpp.obj	c4c3062c08217949
 197	2901	7628335184191678	CMakeFiles/Unidad_2.dir/src/anagrama/Anagrama.cpp.obj	80b188015ba3835b
+61	1948	7628347615110419	CMakeFiles/Unidad_2.dir/src/arrays/Arreglo.cpp.obj	c4c3062c08217949
 100	1873	7636132083796977	CMakeFiles/Unidad_2.dir/src/arregloSuma/Suma.cpp.obj	9ec535ca3f862364
 125	2455	7644147554292809	CMakeFiles/Unidad_2.dir/src/pilasDinamicas/Dinamicas.cpp.obj	7a04a9c626e47266
 108	3981	7636985231136532	CMakeFiles/Unidad_2.dir/src/examen/ComunDiv.cpp.obj	9f9e84fc7771316b
@@ -15,7 +13,4 @@
 550	2425	7642177555277525	CMakeFiles/Unidad_2.dir/src/colas/ColasEstaticas.cpp.obj	9bef1adf97433f2f
 29	1756	7642179675155043	CMakeFiles/Unidad_2.dir/src/colasDinamicas/ColasSimples.cpp.obj	3eeb8317d7a5738f
 102	2522	7644901708902562	CMakeFiles/Unidad_2.dir/src/tarea/Tarea3.cpp.obj	7f290616e0ae9a2e
-54	4404	7646480090894319	CMakeFiles/Unidad_2.dir/main.cpp.obj	a790217694379341
-40	3989	7646481145319397	CMakeFiles/Unidad_2.dir/main.cpp.obj	a790217694379341
 175	3688	7646481386673653	CMakeFiles/Unidad_2.dir/src/bicolas/Bicolas.cpp.obj	3958f59f876e070a
-3690	4621	7646481421801037	Unidad_2.exe	fca78d01b6559faa
