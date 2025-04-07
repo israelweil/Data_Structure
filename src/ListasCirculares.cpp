@@ -3,12 +3,10 @@
 #include "ListasCirculares.h"
 #include <iostream>
 using namespace std;
-void ListasCirculares::inicializar(){
-    cabeza = NULL;
-}
+ListasCirculares::ListasCirculares() : cabeza(nullptr) {}
 
 bool ListasCirculares::empty(){
-    return cabeza==NULL;
+    return cabeza==nullptr;
 }
 
 void ListasCirculares::insertarFinal(int dato) {
@@ -56,7 +54,7 @@ int ListasCirculares::size() {
         return 0;
     } else {
         Nodo * aux= cabeza;
-        int contador = 0;
+        int contador = 1;
         while (aux-> siguiente != cabeza) {
             ++contador;
             aux = aux -> siguiente;
@@ -136,4 +134,74 @@ void ListasCirculares::eliminarPosicion(int posicion) {
     anterior -> siguiente = aux -> siguiente;
     delete aux;
     cout << "Se elimino un dato" << endl;
+}
+
+void ListasCirculares::mostrar() {
+    if (empty()) {
+        cout<<"Lista vacia" << endl;
+        return;
+    }
+    cout << "Elementos de la lista: " << endl;
+    Nodo * aux = cabeza;
+    do {
+        cout<<aux -> valor << " ";
+        aux = aux -> siguiente;
+    } while (aux != cabeza);
+    cout<<endl;
+}
+
+ListasCirculares::~ListasCirculares() {
+    if (empty()) {
+        return;
+    }
+    Nodo * aux = cabeza;
+    Nodo * siguiente = nullptr;
+    do {
+        siguiente = aux -> siguiente;
+        delete aux;
+        aux = siguiente;
+    }while (aux != cabeza);
+    cout <<"Se libero la memoria"<<endl;
+}
+
+void ListasCirculares::buscarDato(int dato) {
+    if (empty()) {
+        cout << "Lista vacia" << endl;
+        return;
+    }
+
+    if (cabeza -> valor == dato) {
+        //si se elimina la cabeza
+        eliminarPosicion(1);
+        return;;
+    }
+    Nodo * aux =cabeza;
+    Nodo * anterior = nullptr;
+    do {
+        if (aux -> valor == dato) {
+            // estamos posicionados en el nodo a eliminar
+            anterior->siguiente = aux-> siguiente;
+            delete aux;
+            cout << "Elemento eliminado: " << dato << endl;
+            return;
+        }
+        anterior = aux;
+        aux = aux -> siguiente;
+    }while (aux != cabeza);
+    //si se sale del while es que no lo encontro
+    cout << "Elemento no encontrado" << endl;
+}
+
+void ListasCirculares::ejecutar() {
+    insertarFinal(18);
+    insertarFinal(19);
+    mostrar();
+    insertarPosicion(3,2);
+    insertarPosicion(5,4);
+    mostrar();
+    buscarDato(19);
+    mostrar();
+    eliminarPosicion(2);
+    mostrar();
+
 }

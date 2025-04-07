@@ -1,3 +1,19 @@
 # ninja log v6
 16	2044	7614607889509798	CMakeFiles/Unidad_2.dir/main.cpp.obj	a790217694379341
 2057	2458	7614607909932958	Unidad_2.exe	545bce3a2f64ea31
+260	4251	7654260247830261	CMakeFiles/Unidad_2.dir/main.cpp.obj	a790217694379341
+279	4326	7654260248106133	CMakeFiles/Unidad_2.dir/src/ListasCirculares.cpp.obj	42810c3c898322cc
+4326	5308	7654260288475931	Unidad_2.exe	18be90ac600a1eae
+12	1650	7654261252309973	CMakeFiles/Unidad_2.dir/src/ListasCirculares.cpp.obj	42810c3c898322cc
+1651	1869	7654261268712842	Unidad_2.exe	18be90ac600a1eae
+91	4203	7654266995300971	CMakeFiles/Unidad_2.dir/main.cpp.obj	a790217694379341
+143	4349	7654266995816613	CMakeFiles/Unidad_2.dir/src/ListasCirculares.cpp.obj	42810c3c898322cc
+4350	4682	7654267037885245	Unidad_2.exe	18be90ac600a1eae
+79	3508	7654270373000164	CMakeFiles/Unidad_2.dir/src/ListasCirculares.cpp.obj	42810c3c898322cc
+3509	3860	7654270407289501	Unidad_2.exe	18be90ac600a1eae
+14	3776	7654274690122648	CMakeFiles/Unidad_2.dir/src/ListasCirculares.cpp.obj	42810c3c898322cc
+3778	4251	7654274727776235	Unidad_2.exe	18be90ac600a1eae
+12	1470	7654275557334494	CMakeFiles/Unidad_2.dir/src/ListasCirculares.cpp.obj	42810c3c898322cc
+1471	1708	7654275571917704	Unidad_2.exe	18be90ac600a1eae
+13	1545	7654276788764467	CMakeFiles/Unidad_2.dir/src/ListasCirculares.cpp.obj	42810c3c898322cc
+1546	1785	7654276804102633	Unidad_2.exe	18be90ac600a1eae

@@ -18,7 +18,12 @@ class ListasCirculares {
 private:
     Nodo * cabeza;
 public:
-    void inicializar();
+
+    ListasCirculares();
+
+    ~ListasCirculares();
+
+    void buscarDato(int dato);
 
     bool empty();
 
@@ -31,6 +36,10 @@ public:
     void insertarPosicion(int dato, int posicion);
 
     void eliminarPosicion(int posicion);
+
+    void mostrar();
+
+    void ejecutar();
 };
 
 
