@@ -22,12 +22,22 @@ private:
     Nodo * raiz;
 public:
     Arboles();
-
     void insertar(int dato, Nodo *&nodo);
 
     void destruir(Nodo *&nodo);
 
-    ~Arboles();
+    void inOrden(Nodo *nodo);
+
+    void posOrden(Nodo *nodo);
+
+    void preOrden(Nodo *nodo);
+
+    Nodo *sucesor(Nodo *nodo);
+
+    Nodo *eliminar(Nodo *nodo, int valor);
+
+    void ejecutar();
+
 };
 
 
