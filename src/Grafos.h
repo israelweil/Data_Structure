@@ -12,11 +12,9 @@ struct Vertice {
     Vertice * siguiente; // apuntador
     //estructura tipo arista
     Arista * arista;
-    Vertice(string n) {
-        nombre = n;
-        siguiente = nullptr;
-        arista = nullptr;
-    }
+
+
+    explicit Vertice(string n): nombre(n),siguiente(nullptr),arista(nullptr){};
 };
 
 struct Arista {
@@ -38,7 +36,16 @@ private:
 public:
     Grafos();
 
+    ~Grafos();
+
     void insertarVertice(string n);
+
+    void insertarArista(string origen, string destino);
+
+    void listaAdyacencia();
+
+
+    void ejecutar();
 };
 
 

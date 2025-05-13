@@ -1,6 +1,10 @@
 #include <iostream>
-int main() {
 
+#include "src/Grafos.h"
+
+int main() {
+    Grafos g;
+    g.ejecutar();
     return 0;
 }
 
