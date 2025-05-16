@@ -44,6 +44,8 @@ public:
 
     void listaAdyacencia();
 
+    void eliminarArista(string origen, string destino);
+
 
     void ejecutar();
 };

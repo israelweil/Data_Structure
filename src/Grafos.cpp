@@ -74,6 +74,47 @@ void Grafos::listaAdyacencia() {
     cout <<endl;
 }
 
+
+void Grafos::eliminarArista(string origen, string destino){
+    Vertice* vorigen = obtenerVertice(origen);
+    Vertice * vdestino = obtenerVertice(destino);
+    if(vorigen == nullptr || vdestino==nullptr){
+        cout << "no existe uno o los dos vertices" << endl;
+        return;
+    }
+    //arista origen->destino
+    Arista* actual = vorigen->arista;
+    Arista* anterior = nullptr;
+    while(actual != nullptr && actual->destino != vdestino){
+        anterior = actual;
+        actual=actual->siguiente;
+    }
+    if(actual == nullptr){
+        cout << "no se encontro la arista" << endl;
+        return;
+    }else{
+        if(anterior==nullptr) vorigen->arista = actual->siguiente;
+        else anterior->siguiente = actual->siguiente;
+        delete actual;
+    }
+    //arista destino->origen
+    Arista* actual2 = vdestino->arista;
+    Arista* anterior2 = nullptr;
+    while(actual2 != nullptr && actual2->destino != vorigen){
+        anterior2 = actual2;
+        actual2=actual2->siguiente;
+    }
+    if(actual2 == nullptr){
+        cout << "no se encontro la arista" << endl;
+        return;
+    }else{
+        if(anterior2==nullptr) vdestino->arista = actual2->siguiente;
+        else anterior2->siguiente = actual2->siguiente;
+        delete actual2;
+    }
+    cout << "se elimino la arista entre " << origen << " y " << destino << endl;
+};
+
 // tengo que eliminar toda la lista de aristas que tiene y ya puedo eliminar el vertice
 Grafos::~Grafos() {
     Vertice * v = principio;
@@ -97,6 +138,8 @@ void Grafos::ejecutar() {
     insertarVertice("C");
     insertarArista("A","B");
     insertarArista("A","C");
+    listaAdyacencia();
+    eliminarArista("A","B");
     listaAdyacencia();
 
 }
