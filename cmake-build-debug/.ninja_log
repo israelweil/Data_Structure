@@ -1,3 +1,8 @@
 # ninja log v6
 16	2044	7614607889509798	CMakeFiles/Unidad_2.dir/main.cpp.obj	a790217694379341
 2057	2458	7614607909932958	Unidad_2.exe	545bce3a2f64ea31
+42	2247	7694015877603108	CMakeFiles/Unidad_2.dir/src/Quicksort.cpp.obj	b061c3f4bb5b71cb
+9	2288	7694015877290449	CMakeFiles/Unidad_2.dir/main.cpp.obj	a790217694379341
+2288	3017	7694015900055718	Unidad_2.exe	2cbe34fb75eb4c8a
+17	1705	7694016695190101	CMakeFiles/Unidad_2.dir/src/Quicksort.cpp.obj	b061c3f4bb5b71cb
+1706	1909	7694016712074647	Unidad_2.exe	2cbe34fb75eb4c8a
