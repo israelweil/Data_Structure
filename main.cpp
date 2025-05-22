@@ -1,8 +1,11 @@
 #include <iostream>
+
+#include "src/Counting_Sort.h"
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-
+    Counting_Sort ejercicio;
+    ejercicio.ejecutar();
     return 0;
 }
 
