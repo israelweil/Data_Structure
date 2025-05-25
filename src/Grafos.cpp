@@ -1,4 +1,4 @@
-#include <iostream>
+/**#include <iostream>
 //
 // Created by cland on 12/05/2025.
 //
@@ -27,6 +27,7 @@ void Grafos::insertarVertice(string n) {
     Vertice * nuevo = new Vertice(n);
     if (principio == nullptr) {
         principio = nuevo;
+        cout<<"Se inserto el primer vertice:   "<< n<<endl;
     } else {
         Vertice * temp = principio;
         while (temp -> siguiente != nullptr) { // me coloca en el ultimo valor
@@ -113,7 +114,7 @@ void Grafos::eliminarArista(string origen, string destino){
         delete actual2;
     }
     cout << "se elimino la arista entre " << origen << " y " << destino << endl;
-};
+}
 
 // tengo que eliminar toda la lista de aristas que tiene y ya puedo eliminar el vertice
 Grafos::~Grafos() {
@@ -142,4 +143,4 @@ void Grafos::ejecutar() {
     eliminarArista("A","B");
     listaAdyacencia();
 
-}
+}*/

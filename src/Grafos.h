@@ -30,13 +30,14 @@ struct Arista {
 class Grafos {
 private:
     Vertice * principio;
-    Vertice * obtenerVertice(string n);
 
 
 public:
     Grafos();
 
     ~Grafos();
+
+    Vertice * obtenerVertice(string n);
 
     void insertarVertice(string n);
 
