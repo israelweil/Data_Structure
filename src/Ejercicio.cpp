@@ -53,7 +53,29 @@ void Ejercicio::radixSort(int array[], int t) {
     }
 }
 
+
+void Ejercicio::intercalacion(int a[],int ta, int b[], int tb, int c[]) {
+    int i = 0, j=0,k=0;
+    for (;i<ta && j<tb; k++) {
+        if (a[i]<b[j]) {
+            c[k] = a[i];
+            i++;
+        } else {
+            c[k] = b[j];
+            j++;
+        }
+    }
+    for (; i < ta; ++i, k++) {
+        c[k] = a[i];
+    }
+    for (; j < tb; ++j, k++) {
+        c[k] = b[j];
+    }
+}
+
+
 void Ejercicio::ejecutar() {
+
     cout<<"Arreglo desordenado:"<<endl;
     for (int i = 0; i < t; ++i) {
         cout<<array[i]<<" ";
